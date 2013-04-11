@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "haredis": "~0.2.10"
+  }
+}

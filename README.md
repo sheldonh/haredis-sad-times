@@ -1,12 +1,6 @@
-# Get you some Redis cluster
+# haredis sad times
 
-Quick and dirty script to get 3 Redis instances up on different ports of localhost
-in as little time as possible. Basically, you do this:
+Fork of [gysrc] (https://github.com/sheldonh/gysrc) to provide steps to repeat
+data loss reported in
+[haredis issue #8] (https://github.com/carlos8f/haredis/issues/8).
 
-```
-git clone git://github.com/sheldonh/gysrc.git
-cd gysrc
-./get-you-some-redis-cluster start
-```
-
-I wrote this to make it easy for my team to play with [haredis] (https://github.com/carlos8f/haredis).
