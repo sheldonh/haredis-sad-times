@@ -3,10 +3,13 @@
 set -m
 
 PROGNAME=$(basename $0)
+
+version=${REDIS_VERSION:=2.6.12}
+
 cd $(dirname $0)
 
 ctl=./get-you-some-redis-cluster
-cli=redis-2.6.12/src/redis-cli
+cli=redis-${version}/src/redis-cli
 
 log() {
 	echo
