@@ -2,6 +2,6 @@ appendonly*.aof
 dist
 dump*.rdb
 node_modules
-redis-*.*
+redis-*
 redis*.conf
 redis*.pid
