@@ -9,7 +9,7 @@ server=redis-${version}/src/redis-server
 cd $(dirname $0)
 
 runningpids() {
-	pidof "$server" || true
+	echo `ps aux | grep "$server" | grep -v grep | awk '{print $2}' | tr '\n' ' '`
 }
 
 getpid() {
